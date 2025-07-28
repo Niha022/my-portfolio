@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niharika Soni | Portfolio</title>
+    
+    <!-- Link to our CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">NIHARIKA SONI</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <!-- This div is the canvas for our particle animation -->
+            <div id="particles-js"></div>
+            
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Niharika Soni</span></h1>
+                <p>A B.Tech Computer Science graduate with a passion for application development, data analysis, and building real-world tech solutions.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- IMPORTANT: Add a real photo of yourself! See Step 6. -->
+                <img src="images/profile-photo.jpg" alt="Niharika Soni" class="profile-pic">
+                <div class="about-text">
+                    <p>
+                        As a recent graduate in Computer Science and Engineering, with experience in application development and data analysis. I have worked on AI-driven recruitment tools, web solutions, and data visualization projects. I enjoy developing platforms to improve system efficiency and simplify user workflows, and I am focused on problem-solving, learning new technologies, and delivering practical solutions.
+                    </p>
+                    <div class="education-container">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Amity University Noida</h4>
+                            <p>Bachelor of Technology, Computer Science & Engineering | 2021 - 2025</p>
+                            <p>CGPA: 7.59</p></div>
+                        <div class="education-item">
+                            <h4>Gyan Ganga International School</h4>
+                            <p>Senior Secondary Degree | 2020 - 2021</p>
+                            <p>Percentage: 92%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-container">
+                <div class="experience-card hidden"> <!-- Added "hidden" class for animation -->
+                    <h3>Web Developer Intern</h3>
+                    <h4>Octa Net Services Private Limited | Bhubaneswar, India</h4>
+                    <p class="date">Aug 2024 – Oct 2024</p>
+                    <ul>
+                        <li>Created 5+ adaptable interfaces, ensuring cross-platform compatibility.</li>
+                        <li>Resolved 10+ issues, enhancing SEO by 15% and optimizing load speed.</li>
+                    </ul>
+                </div>
+                <div class="experience-card hidden"> <!-- Added "hidden" class for animation -->
+                    <h3>Web Developer Intern</h3>
+                    <h4>Marksman Technologies Pvt Ltd | Delhi, India</h4>
+                    <p class="date">May 2024 – Jun 2024</p>
+                    <ul>
+                        <li>Developed Resu-ALT, an AI-driven hiring tool that streamlined candidate evaluation.</li>
+                        <li>Designed an automated skill testing framework for job-specific assessments.</li>
+                    </ul>
+                </div>
+                <div class="experience-card hidden"> <!-- Added "hidden" class for animation -->
+                    <h3>Data Analyst Intern</h3>
+                    <h4>Gig Labh Earth Pvt Ltd | Bhopal, India</h4>
+                    <p class="date">May 2023 – Oct 2023</p>
+                    <ul>
+                        <li>Processed 50,000+ records, ensuring 20% better accuracy in insights.</li>
+                        <li>Assisted in 3 industry case studies, providing measurable solutions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects / Open-Sources</h2>
+            <div class="projects-container">
+                <div class="project-card hidden"> <!-- Added "hidden" class for animation -->
+                    <img src="images/project-resu-alt.png" alt="Resu-ALT Web App">
+                    <h3>AI-Integrated Resu-ALT Web App</h3>
+                    <ul>
+                        <li>Built an AI hiring system using React.js, Node.js, Python, and MySQL, integrated with AWS for scalability.</li>
+                        <li>Implemented AI-driven candidate screening, increasing hiring efficiency by 25%.</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://en-25.github.io/frontend/website/" target="_blank" class="btn">Live Demo</a>
+                        <a href="https://github.com/en-25/frontend" target="_blank" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card hidden"> <!-- Added "hidden" class for animation -->
+                    <img src="images/project-ibm-analytics.png" alt="A dashboard from the IBM HR Analytics project">
+                    <h3>IBM HR Analytics: Attrition Analysis</h3>
+                    <ul>
+                        <li>Analysed employee attrition data using Python, Power BI, and Excel, processing 50,000+ data points.</li>
+                        <li>Designed interactive dashboards, providing HR teams with clear insights and actionable recommendations.</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Niha022/IBM-HR-analytics-attrition/blob/main/employee_attrition%20prediction.ipynb" target="_blank" class="btn">View Dashboard</a>
+                        <a href="https://github.com/Niha022/IBM-HR-analytics-attrition" target="_blank" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="hidden"><h3>Languages</h3><p>Python | C | C++ | SQL | HTML | CSS</p></div>
+                <div class="hidden"><h3>Frameworks</h3><p>Pandas | NumPy | Matplotlib</p></div>
+                <div class="hidden"><h3>Tools</h3><p>Power BI | Excel | Tableau | PowerPoint</p></div>
+                <div class="hidden"><h3>Platforms/Tech</h3><p>Jupyter Notebook | VS Code | SDLC | Operating System</p></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm open to new opportunities and collaborations. Feel free to reach out!</p>
+            <a href="mailto:niharikasoni022@gmail.com" class="btn">Say Hello</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/niharika-soni-1b568525b/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Niha022" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Niharika Soni. All rights reserved.</p>
+    </footer>
+
+    <!-- tsParticles library for the animation. MUST be before your script.js -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+    
+    <!-- Your custom script file -->
+    <script src="script.js"></script>
+</body>
+</html>
